@@ -1,12 +1,13 @@
 import java.util.Comparator;
 
 public class Lecture implements Comparator<Lecture> {
+    // Lectures feature
     String name;
     int start_H;
     int start_M;
     int fnish_H;
     int fnish_M;
-
+    // constructor
     public Lecture(String name, int start_H, int start_M, int fnish_H, int fnish_M) {
         this.name = name;
         this.start_H = start_H;
@@ -14,7 +15,7 @@ public class Lecture implements Comparator<Lecture> {
         this.fnish_H = fnish_H;
         this.fnish_M = fnish_M;
     }
-
+    // geters and setters
     public String getName() {
         return name;
     }
@@ -54,7 +55,7 @@ public class Lecture implements Comparator<Lecture> {
     public void setFnish_M(int fnish_M) {
         this.fnish_M = fnish_M;
     }
-
+    // comparator override
     @Override
     public int compare(Lecture l1, Lecture l2) {
         // Compare by start minute first
@@ -64,7 +65,7 @@ public class Lecture implements Comparator<Lecture> {
         // If start minutes are equal, compare by start hour
         return Integer.compare(l1.getStart_H(), l2.getStart_H());
     }
-
+    // tostring
     @Override
     public String toString() {
         return "Lecture{" +
