@@ -27,5 +27,5 @@ The core of this solution is a **Greedy Strategy**:
 
 Created by Ali Razavi
 
-🔗 GitHub: [AliRazaviJ]([URL](https://github.com/AliRazaviJ?tab=repositories))
+🔗 GitHub: [AliRazaviJ](https://github.com/AliRazaviJ)
 
