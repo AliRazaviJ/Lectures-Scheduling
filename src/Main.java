@@ -48,12 +48,11 @@ public class Main {
                         classs.add(Lectures.get(i));
                         break;
                     }
-
-
                 }
-                System.out.println("//////////////////////////////////////");
-                classs.forEach(item -> System.out.println(item));
-                System.out.println("/////////////////////////////////////");
+                // you can see the list during Algo
+                // System.out.println("//////////////////////////////////////");
+                // classs.forEach(item -> System.out.println(item));
+                // System.out.println("/////////////////////////////////////");
                 if(max<classs.size()){
                     max=classs.size();
 
